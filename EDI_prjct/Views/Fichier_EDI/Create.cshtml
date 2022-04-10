@@ -1,0 +1,16 @@
+﻿@model EDI_prjct.Models.Fichier_EDI
+
+@{
+    ViewBag.Title = "Create";
+    ViewBag.Description = "create Page";
+}
+@{
+    Html.BeginForm("CreateDocument", "Fichier_EDI", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Create Document" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
+@Html.ActionLink("Generate XML", "GenerateXml", "Employe", new { @class = "btn btn-default" })
