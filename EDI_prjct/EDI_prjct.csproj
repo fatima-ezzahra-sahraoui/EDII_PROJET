@@ -137,6 +137,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Views\Register\Register.cshtml" />

@@ -13,8 +13,8 @@ namespace EDI_prjct.Migrations
             ContextKey = "EDI_prjct.Models.RDbContext";
         }
 
-        protected override void Seed(EDI_prjct.Models.RDbContext context)
-        {
+       // protected override void Seed(EDI_prjct.Models.RDbContext context)
+       // {
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
@@ -27,6 +27,6 @@ namespace EDI_prjct.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-        }
+     //   }
     }
 }

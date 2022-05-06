@@ -26,5 +26,6 @@ namespace EDI_prjct.Models
         public System.Data.Entity.DbSet<EDI_prjct.Models.Register> Registers { get; set; }
 
         public System.Data.Entity.DbSet<EDI_prjct.Models.Login> Logins { get; set; }
+        public object Users { get; internal set; }
     }
 }

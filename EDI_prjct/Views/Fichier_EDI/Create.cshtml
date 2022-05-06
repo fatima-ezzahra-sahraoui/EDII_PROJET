@@ -1,16 +1,27 @@
 ﻿@model EDI_prjct.Models.Fichier_EDI
 
+
+@Html.Partial("_Sidebar")
 @{
-    ViewBag.Title = "Create";
-    ViewBag.Description = "create Page";
+    ViewBag.Title = "Générer Le Fichier XML";
+    ViewBag.Description = "Des Employées";
+
 }
-@{
-    Html.BeginForm("CreateDocument", "Fichier_EDI", FormMethod.Get);
-    {
+<div>
+    <p>
+        <hr />
+        <hr />
+        <hr />
         <div>
-            <input type="submit" value="Create Document" style="width:150px;height:27px" />
+
         </div>
-    }
-    Html.EndForm();
-}
-@Html.ActionLink("Generate XML", "GenerateXml", "Employe", new { @class = "btn btn-default" })
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+    </p>
+</div>
+<div class="center-block">
+    @Html.ActionLink("Generate XML", "GenerateXml", "Employe", new { @class = "btn btn-danger btn-lg btn-block" })
+</div>
